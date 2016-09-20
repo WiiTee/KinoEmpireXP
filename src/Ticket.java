@@ -9,7 +9,14 @@ public class Ticket
     private Timestamp viewingTime;
     private int row;
     private int seatNumber;
+    private double price;
 
 
-
+    public Ticket(int theater, Timestamp viewingTime, int row, int seatNumber, double price) {
+        this.theater = theater;
+        this.viewingTime = viewingTime;
+        this.row = row;
+        this.seatNumber = seatNumber;
+        this.price = price;
+    }
 }

@@ -10,5 +10,6 @@ public class Movie
     private Timestamp releaseDate;
     private String director;
     private String language;
+    private int ageLimit;
 
 }
