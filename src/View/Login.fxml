@@ -8,7 +8,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: tan;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <Label rotate="360.0" text="Login" BorderPane.alignment="CENTER">
          <padding>
@@ -19,19 +19,8 @@
          </font>
       </Label>
    </top>
-   <bottom>
-      <HBox prefHeight="93.0" prefWidth="569.0" spacing="50.0" BorderPane.alignment="CENTER">
-         <children>
-            <Button mnemonicParsing="false" text="Close" />
-            <Button mnemonicParsing="false" text="Login" />
-         </children>
-         <padding>
-            <Insets left="225.0" />
-         </padding>
-      </HBox>
-   </bottom>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="307.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
          <children>
             <HBox prefHeight="46.0" prefWidth="600.0">
                <children>
@@ -59,9 +48,18 @@
                   <PasswordField />
                </children>
             </HBox>
+            <HBox prefHeight="93.0" prefWidth="569.0" spacing="50.0">
+               <children>
+                  <Button fx:id="closebtn" mnemonicParsing="false" text="Close" />
+                  <Button fx:id="loginbtn" mnemonicParsing="false" text="Login" />
+               </children>
+               <padding>
+                  <Insets left="85.0" />
+               </padding>
+            </HBox>
          </children>
          <padding>
-            <Insets left="200.0" top="50.0" />
+            <Insets left="550.0" top="50.0" />
          </padding>
       </VBox>
    </center>
