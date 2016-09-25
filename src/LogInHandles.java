@@ -1,6 +1,8 @@
 /**
  * Created by Flemmer on 21-09-2016.
  */
+
+/*
 public class LogInHandles {
 
 
@@ -25,3 +27,4 @@ public class LogInHandles {
     }
 
 }
+*/
