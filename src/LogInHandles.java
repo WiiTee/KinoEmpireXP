@@ -1,6 +1,9 @@
 /**
  * Created by Flemmer on 21-09-2016.
  */
+/*
+import javafx.*;
+
 public class LogInHandles {
 
 
@@ -25,3 +28,4 @@ public class LogInHandles {
     }
 
 }
+*/
