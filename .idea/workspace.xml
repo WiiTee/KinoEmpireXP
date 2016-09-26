@@ -2,49 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c227f6-d50e-4caa-9c9c-0a8e7a827023" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Database/DatabaseConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Database/DbConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Database/DbOrderHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/ViewOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/customerOrder.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/CustomerOrderView_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/addMovie_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/adminOrdre_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/adminStartScreen_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/edit_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/movieinfo_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/startscreenView_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/superUserOrder_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/supserUserStartScreen_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Controllers/tickets1view_Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Model/DatabaseSkabelon.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/View/superUserOrder.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/CustomerOrderView_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/addMovie_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/adminOrdre_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/adminStartScreen_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/edit_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/movieinfo_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/startscreenView_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/superUserOrder_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/supserUserStartScreen_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/tickets1view_Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/DatabaseSkabelon.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/View/superUserOrder.fxml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Booking.java" afterPath="$PROJECT_DIR$/src/model/Booking.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Calendar.java" afterPath="$PROJECT_DIR$/src/model/Calendar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Movie.java" afterPath="$PROJECT_DIR$/src/model/Movie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Ticket.java" afterPath="$PROJECT_DIR$/src/model/Ticket.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Booking.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Calendar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Movie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Ticket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/User.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KinoEmpireXP.iml" afterPath="$PROJECT_DIR$/KinoEmpireXP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/View/Login.fxml" afterPath="$PROJECT_DIR$/out/production/KinoEmpireXP/View/Login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Login.fxml" afterPath="$PROJECT_DIR$/src/View/Login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Test.java" afterPath="$PROJECT_DIR$/src/controller/Test.java" />
     </list>
     <ignored path="KinoEmpireXP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,12 +83,12 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42759407">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.53271025">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -903,12 +867,19 @@
       <updated>1474530706901</updated>
       <workItem from="1474530708318" duration="1995000" />
       <workItem from="1474830644427" duration="5612000" />
-      <workItem from="1474838857353" duration="19554000" />
+      <workItem from="1474838857353" duration="19855000" />
     </task>
+    <task id="LOCAL-00001" summary="Bogi">
+      <created>1474886919084</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474886919084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27161000" />
+    <option name="totallyTimeSpent" value="27462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="23" width="1668" height="1023" extended-state="0" />
@@ -921,7 +892,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37790054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37790054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19557196" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="134" y="110" width="223" height="755" />
@@ -967,6 +938,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bogi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bogi" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
@@ -984,8 +959,8 @@
           <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1301,12 +1276,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42759407">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.53271025">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
           </folding>
         </state>
       </provider>
