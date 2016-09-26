@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6577fb7-dc15-4f7b-9564-07ffcb21f9e9" name="Default" comment="-Controller updates til gui&#10;-Navigation i GUI&#10;- FXML filer rykket fra View til &quot;Controllers&quot; mappe.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/ChangeScene.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/Login_controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/Test.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KinoEmpireXP/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/CustomerOrderView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/Login.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/addMovie.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/adminOrdre.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/adminStartScreen.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/edit.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/movieinfo.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/startscreenView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/superUserOrder.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/superUserStartScreen.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/tickets1view.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/movieinfo_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/movieinfo_Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/startscreenView_Controller.java" afterPath="$PROJECT_DIR$/src/Controllers/startscreenView_Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogInHandles.java" afterPath="$PROJECT_DIR$/src/LogInHandles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Login.fxml" afterPath="$PROJECT_DIR$/src/View/Login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/movieinfo.fxml" afterPath="$PROJECT_DIR$/src/View/movieinfo.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/startscreenView.fxml" afterPath="$PROJECT_DIR$/src/View/startscreenView.fxml" />
     </list>
     <ignored path="KinoEmpireXP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="movieinfo_Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/movieinfo_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="487">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -836,7 +835,7 @@
       <option name="presentableId" value="Default" />
       <updated>1474355871343</updated>
       <workItem from="1474355874287" duration="19309000" />
-      <workItem from="1474873357669" duration="13111000" />
+      <workItem from="1474873357669" duration="14250000" />
     </task>
     <task id="LOCAL-00001" summary="Attributter tilføjet, klasse: employee slettet.">
       <created>1474359174086</created>
@@ -852,11 +851,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474368142684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Controller updates til gui&#10;-Navigation i GUI&#10;- FXML filer rykket fra View til &quot;Controllers&quot; mappe.&#10;">
+      <created>1474886990969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474886990969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32420000" />
+    <option name="totallyTimeSpent" value="33559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -864,7 +870,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -874,7 +880,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1237,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/movieinfo_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="487">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
