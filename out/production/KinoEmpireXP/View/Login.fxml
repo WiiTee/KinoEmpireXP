@@ -8,59 +8,64 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: tan;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-   <top>
-      <Label rotate="360.0" text="Login" BorderPane.alignment="CENTER">
-         <padding>
-            <Insets top="40.0" />
-         </padding>
-         <font>
-            <Font size="51.0" />
-         </font>
-      </Label>
-   </top>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #CEE3F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <center>
-      <VBox prefHeight="307.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
+      <VBox alignment="TOP_CENTER" fillWidth="false" spacing="8.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox prefHeight="46.0" prefWidth="600.0">
+            <HBox alignment="TOP_CENTER">
                <children>
-                  <Label text="Username:">
+                  <Label text="Login">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER" fillHeight="false" spacing="8.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Username:">
                      <font>
                         <Font size="16.0" />
                      </font>
-                     <padding>
-                        <Insets right="10.0" />
-                     </padding>
                   </Label>
-                  <TextField />
+                  <TextField alignment="CENTER" promptText="Username" />
                </children>
             </HBox>
-            <HBox prefHeight="54.0" prefWidth="600.0">
+            <HBox alignment="CENTER" spacing="8.0">
                <children>
                   <Label text="Password:">
                      <font>
                         <Font size="16.0" />
                      </font>
-                     <padding>
-                        <Insets right="15.0" />
-                     </padding>
                   </Label>
-                  <PasswordField />
+                  <PasswordField alignment="CENTER" promptText="Password" />
                </children>
             </HBox>
-            <HBox prefHeight="93.0" prefWidth="569.0" spacing="50.0">
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="570.0" spacing="8.0">
                <children>
-                  <Button fx:id="closebtn" mnemonicParsing="false" text="Close" />
-                  <Button fx:id="loginbtn" mnemonicParsing="false" text="Login" />
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Close">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Login">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Button>
                </children>
-               <padding>
-                  <Insets left="85.0" />
-               </padding>
             </HBox>
          </children>
-         <padding>
-            <Insets left="550.0" top="50.0" />
-         </padding>
+         <BorderPane.margin>
+            <Insets top="40.0" />
+         </BorderPane.margin>
       </VBox>
    </center>
 </BorderPane>
