@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label rotate="360.0" text="Login" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="40.0" />
+         </padding>
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <HBox prefHeight="93.0" prefWidth="569.0" spacing="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" text="Close" />
+            <Button mnemonicParsing="false" text="Login" />
+         </children>
+         <padding>
+            <Insets left="225.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="46.0" prefWidth="600.0">
+               <children>
+                  <Label text="Username:">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </Label>
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="600.0">
+               <children>
+                  <Label text="Password:">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets right="15.0" />
+                     </padding>
+                  </Label>
+                  <PasswordField />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="200.0" top="50.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
