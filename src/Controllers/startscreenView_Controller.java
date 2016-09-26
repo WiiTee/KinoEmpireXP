@@ -19,7 +19,7 @@ public class startscreenView_Controller {
 
     @FXML
     void movieClicked() throws Exception{
-        changeScene.changeToScene("movieinfo.fxml", "Movie info");
+        changeScene.changeToScene("movieinfo.fxml", "Model.Movie info");
         loginBtn.getScene().getWindow().hide();
     }
 

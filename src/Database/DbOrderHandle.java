@@ -1,8 +1,9 @@
 package Database;
 
+
+import Model.Order;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import model.Order;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
