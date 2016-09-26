@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?package View?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
@@ -8,9 +9,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.movieinfo_Controller">
    <top>
-      <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="73.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER_LEFT" prefHeight="73.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
          <padding>
             <Insets left="20.0" />
          </padding>
@@ -24,7 +25,7 @@
       </VBox>
    </top>
    <left>
-      <VBox maxWidth="-Infinity" prefHeight="561.0" prefWidth="494.0" spacing="10.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="568.0" prefWidth="494.0" spacing="10.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="*Filmtitel*">
                <font>
@@ -47,9 +48,9 @@
       </VBox>
    </left>
    <center>
-      <VBox maxWidth="-Infinity" prefHeight="568.0" prefWidth="991.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="568.0" prefWidth="991.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="115.0" prefWidth="802.0" spacing="10.0">
+            <VBox prefHeight="115.0" prefWidth="802.0" spacing="10.0">
                <padding>
                   <Insets top="30.0" />
                </padding>
@@ -61,7 +62,7 @@
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Label>
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -77,7 +78,7 @@
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Label>
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -91,7 +92,7 @@
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Label>
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -104,7 +105,7 @@
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Label>
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -113,30 +114,30 @@
                   </HBox>
                   <HBox prefHeight="21.0" prefWidth="852.0" spacing="5.0">
                      <children>
-                        <Label text="Instruktør:">
+                        <Label text="Direktør:">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Label>
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Label>
                      </children>
                   </HBox>
-                  <HBox maxHeight="100.0" maxWidth="200.0" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
                      <children>
-                        <Label maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Skuespillere:">
+                        <Label text="Skuespillere:">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Label>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="662.5834350585938">
+                        <Label text="Label">
                            <font>
                               <Font size="18.0" />
                            </font>
-                        </Text>
+                        </Label>
                      </children>
                   </HBox>
                   <Line endX="700.0" startX="-100.0" strokeWidth="2.0">
@@ -161,8 +162,8 @@
             </VBox>
             <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
                <children>
-                  <Button mnemonicParsing="false" text="Tilbage til oversigt" />
-                  <Button mnemonicParsing="false" text="Reservér" />
+                  <Button fx:id="backBtn" mnemonicParsing="false" onAction="#backToView" text="Tilbage til oversigt" />
+                  <Button fx:id="reserveBtn" mnemonicParsing="false" onAction="#reserve" text="Reservér" />
                </children>
             </HBox>
          </children>

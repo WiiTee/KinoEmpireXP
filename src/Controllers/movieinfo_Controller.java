@@ -21,13 +21,13 @@ public class movieinfo_Controller {
 
     @FXML
     void backToView() throws Exception{
-        changeScene.changeToScene("startscreenView.fxml", "Overview");
+        changeScene.changeToScene("/View/startscreenView.fxml", "Overview");
         backBtn.getScene().getWindow().hide();
     }
 
     @FXML
     void reserve() throws Exception{
-        changeScene.changeToScene("tickets1view.fxml", "Reserve Tickets");
+        changeScene.changeToScene("/View/tickets1view.fxml", "Reserve Tickets");
         reserveBtn.getScene().getWindow().hide();
     }
 
