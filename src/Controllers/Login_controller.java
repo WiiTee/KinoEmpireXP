@@ -29,7 +29,7 @@ public class Login_controller {
     @FXML
     void loginAction() throws Exception {
 
-        Parent root = FXMLLoader.load(getClass().getResource("startscreenView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../View/startscreenView.fxml"));
         Scene scene = new Scene(root, 1366, 768);
         Stage stage = new Stage();
 
